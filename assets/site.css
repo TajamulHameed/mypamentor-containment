@@ -77,6 +77,8 @@ p { margin: 0 0 1em; }
 strong { color: var(--ink); font-weight: 650; }
 .eyebrow { display: inline-flex; align-items: center; gap: 0.55rem; margin: 0 0 0.9rem; color: var(--teal); font: 500 0.76rem/1.2 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; }
 .eyebrow::before { content: ""; width: 1.4rem; height: 2px; background: var(--coral); }
+/* Words the original headings marked for emphasis with ElementsKit {{...}} syntax. */
+.hl { color: var(--teal); box-shadow: inset 0 -0.35em 0 var(--aqua-wash); }
 
 /* ---------- sections ---------- */
 .block { padding-block: clamp(2.5rem, 6vw, 4.5rem); border-top: 1px solid var(--line); }
